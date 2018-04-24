@@ -1,0 +1,38 @@
+{
+  "name": "conkayyan/md",
+  "description": "MD PHP Framework",
+  "require-dev": {},
+  "keywords": [
+    "md",
+    "framework"
+  ],
+  "type": "library",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "conkayyan",
+      "email": "conkay@foxmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "klein/klein": "dev-master",
+    "joshcam/mysqli-database-class": "dev-master",
+    "phpFastCache/phpFastCache": "v7.x-dev",
+    "guzzlehttp/guzzle": "^6.3@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "common\\": "common",
+      "frontend\\": "frontend",
+      "console\\": "console"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
